@@ -1,10 +1,5 @@
-<<<<<<< HEAD
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap");
-=======
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,800;1,500&display=swap");
->>>>>>> main
 
 body {
   margin: 0;
@@ -109,6 +104,33 @@ body {
     text-align: center;
 }
 
+.info_card_inner{
+    width: 75%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_card{
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.info_card h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #252B42;
+}
+
+.info_card p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #737373;
+}
+
 .info_text h2{
     font-size: 40px;
     font-weight: 700;
@@ -122,10 +144,3 @@ body {
     color: #737373;
 }
 
-.info_card_inner{
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
