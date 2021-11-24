@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap");
-=======
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,800;1,500&display=swap");
->>>>>>> main
-
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -97,35 +90,79 @@ body {
   background: #ff7b47;
   color: white;
 }
-.d-flex .opacity{
-    border: 1px solid #0D5C63;
-    background-color: transparent;
-    color:#0D5C63;
-    margin-left: 15px;
+.d-flex .opacity {
+  border: 1px solid #0d5c63;
+  background-color: transparent;
+  color: #0d5c63;
+  margin-left: 15px;
 }
 
-
-.info_text{
-    text-align: center;
+.info_text {
+  text-align: center;
 }
 
-.info_text h2{
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 57px;
-    color: #252B42;
+.info_text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  color: #252b42;
 }
 
-.info_text p{
-    font-size: 14px;
-    font-weight: 500;
-    color: #737373;
+.info_text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #737373;
 }
 
-.info_card_inner{
-    width: 60%;
-    margin: 0 auto;
+.info_card_inner {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 375px) {
+  .banner {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .banner h2 {
+    font-size: 38px;
+  }
+}
+.footer_back {
+  background: #fafafa;
+}
+.top_footer {
+  width: 90%;
+  padding: 40px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_footer h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.parent_footer {
+  margin-left: 180px;
+  margin-bottom: 40px;
+}
+.btn_footer {
+  margin-right: 40px;
+}
+.btn_footer button {
+  background: #ff7b47;
+  padding: 15px, 40px, 15px, 40px;
+  border: 0;
+  border-radius: 5px;
+  width: 160px;
+  height: 58px;
+}
+.parent_footer p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #737373;
 }
