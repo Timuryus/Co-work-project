@@ -141,20 +141,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.info_card{
+.info_card {
   text-align: center;
   background-color: #fff;
   padding: 10px 20px;
   margin-bottom: 20px;
 }
 
-.info_card h2{
+.info_card h2 {
   font-weight: 700;
   font-size: 40px;
-  color: #252B42;
+  color: #252b42;
 }
 
-.info_card p{
+.info_card p {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
