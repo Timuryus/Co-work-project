@@ -79,6 +79,9 @@ body {
     font-size: 33px;
     padding-top: 5px;
   }
+  .info_card_inner {
+    width: 90%;
+  }
 }
 .d-flex {
   display: flex;
@@ -115,11 +118,12 @@ body {
 }
 
 .info_card_inner {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 375px) {
   .banner {
@@ -131,10 +135,14 @@ body {
   .banner h2 {
     font-size: 38px;
   }
+  .info_card_inner {
+    width: 50%;
+  }
 }
 .footer_back {
   background: #fafafa;
 }
+
 .top_footer {
   width: 90%;
   padding: 40px 5%;
